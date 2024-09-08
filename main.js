@@ -110,3 +110,50 @@ if ((flavor === "vanilla" || flavor === "chocolate") &&
     (toppings === "sprinkles" || toppings === "peanuts")) {
     console.log("I'd like two scoops of " + flavor + " ice cream in a " + vessel + " with " + toppings + ".");
 }
+
+
+// challenge
+console.log("--------------challenge------------")
+// reverse String Q1
+console.log("--------------challengeQ1------------")
+var str = "hello world";
+
+if (str.length < 3) {
+    console.log("the text is very short!");
+} else {
+    console.log(str.split('').reverse().join(''));
+}
+
+
+// Q2
+console.log("--------------challengeQ2------------")
+var text = " I like programming more than front-end ";
+var wordToCheck = "like";
+
+if (text.includes(wordToCheck)) {
+    console.log("the work is exist");
+} else {
+    console.log("  the word is not exist");
+}
+
+//Q3
+console.log("--------------challengeQ3------------")
+var strToCheck = "Hello World"; 
+var wordToCheckStart = "Hello"; 
+
+if (strToCheck.startsWith(wordToCheckStart)) {
+    console.log("yes start with word   ");
+} else {
+    console.log("No, does not start with word");
+}
+
+//Q4
+
+console.log("--------------challengeQ4------------")
+var textToConvert = "Text random written by Abdullah "; 
+
+if (textToConvert.length > 10) {
+    console.log(textToConvert.toUpperCase());
+} else {
+    console.log("text is short");
+}
